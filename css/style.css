@@ -11,9 +11,10 @@ img{
 
 .main-container {
   display: flex;
+  justify-content: space-between;
   flex-direction: row-reverse;
   width: 1200px;
-  background-color: #fff;
+  background-color: #dcd9d9;
   margin: 40px auto;
   box-shadow: 6px 6px 20px;
 }
@@ -227,7 +228,7 @@ img{
 .social {
   display: flex;
   justify-content: flex-start;
-  padding-left: 0;
+  /* padding-left: 20px; */
 }
 
 .list {
