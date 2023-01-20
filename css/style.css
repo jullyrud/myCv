@@ -7,6 +7,9 @@ body {
 img{
   width: 100%;
 }
+ul{
+  padding-left: 0;
+}
 /* main inf cont  sectiom */
 
 .main-container {
@@ -68,6 +71,7 @@ img{
 .my-projects-item {
   color: #000000;
   font-weight: bold;
+  margin-top: 20px;
 }
 .my-projects-text {
   color: #595959;
@@ -78,11 +82,11 @@ img{
   margin-left: 5px;
 }
 .my-projects-link {
-  color: #595959;
-  font-style: normal;
-  font-weight: normal;
+  color: black;
+  font-weight: bold;
   font-size: 14px;
   line-height: 24px;
+  
 }
 
 .my-projects-link:hover,
@@ -228,7 +232,7 @@ img{
 .social {
   display: flex;
   justify-content: flex-start;
-  /* padding-left: 20px; */
+  padding-left: 0px;
 }
 
 .list {
