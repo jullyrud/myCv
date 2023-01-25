@@ -5,6 +5,8 @@
 
  img {
   width: 100%;
+  display: none;
+  
  }
 
  ul {
@@ -274,8 +276,8 @@
  }
 
  .social__link {
-   width: 44px;
-   height: 44px;
+   width: 35px;
+   height: 35px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -294,4 +296,5 @@
  .sidebar-sections-indent {
    padding-left: 40px;
    margin-top: 40px;
+   padding-top: 50px;
  }
